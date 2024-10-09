@@ -1,0 +1,289 @@
+
+/**menu de navegacion**/
+*{
+                    box-sizing: border-box;
+                    margin: 0;
+                    padding: 0;
+}
+header{
+                    width: 100vw;
+                    height: 100vh;
+                    background-color: rgb(243, 150, 189);
+                    background-position: bottom;
+                    background-size: cover;
+                    display: flex;
+}
+.logo{
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 400px;
+                    border: 8px solid pink;
+                    box-shadow: 2px 2px 15px;
+                    margin-right: 100px;
+                    margin-top: 20px;
+}
+.header-content{
+                   
+                  color: rgb(145, 48, 111); 
+                  text-align: center;
+                  margin-left: 600px;
+                  margin-top: 600px;
+}
+.header-content h2{
+                    font-size: 4vmin;
+
+}
+.header-content h1{
+                    font-size: 6vmin;
+                    margin-top: 30px;
+}
+.line{
+                    width: 150px;
+                    height: 4px;
+                    background: rgb(145, 48, 111);
+                    margin: 10px auto;
+                    border-radius: 5px;
+}
+
+.a-learn{
+       color: rgb(145, 48, 111);
+       font-size: 16px;
+       border:2px solid rgb(145, 48, 111);
+       padding: 4px;
+       border-radius: 10px;
+       
+}
+nav ul li a:hover{
+       color: white;
+} 
+nav ul li a::before{
+       position: absolute;
+       width: 100px;
+       height: 3px;
+       background-color: rgba(145, 48, 111);
+
+}                 
+
+.navbar{
+                    display: flex;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    justify-content: space-around;
+                    color: rgb(145, 48, 111);
+}
+ul{
+                    list-style: none;
+                    display: flex;
+                    margin-left: 600px;
+                    margin-top: 40px;
+
+}
+ul li{
+                    margin: 0 30px ;
+                    cursor: pointer;
+}
+ul li a{
+       color: rgb(145,48,111);
+       font-size: 18px;
+       border:2px solid rgb(145, 48, 111);
+       padding: 8px;
+       border-radius: 10px;
+}
+/**products**/
+
+.products{
+       background-color: rgb(240, 232, 233); 
+}
+.products{
+                    display: grid;
+                    grid-template-columns: 800px 800px;
+                    grid-template-rows: 800px 800px 800px;
+                    grid-gap: 10rem;
+}
+.flower-size{
+                    width: 580px;
+                    height: 560px;
+                    border-radius: 40px;
+                    border: 5px solid pink;
+                    margin-top: 20px;
+                    margin-left: 11px;
+}
+.pro1{
+                    width: 650px;
+                    height: 700px;
+                    border-radius: 50px;
+                    background-color: rgb(246, 201, 208);
+                    margin-left: 100px;
+                    padding-left: 25px;
+                    margin-top: 20px;
+
+
+
+}
+.pro2{
+                    width: 650px;
+                    height: 700px;
+                    border-radius: 50px;
+                    background-color: rgb(246, 201, 208);
+                    padding-left: 25px;
+                    margin-top: 20px;
+}
+.product-name{
+                    font-family: Arial, Helvetica, sans-serif;
+                    color: rgb(145, 48, 111);
+                    font-size: 20px;
+                    margin-top: 5px;        
+}
+.product-price{
+                    font-family: Arial, Helvetica, sans-serif;
+                    color: rgb(145, 48, 111);
+                    font-size: 16px;
+                    margin-top: 5px;
+}
+.btn-buy{   
+                    margin-top: 10px;
+                    width: 150px;
+                    height: 30px;
+                    background-color: pink;
+                    border-radius: 10px;
+                    border-color: rgb(145, 48, 111);
+                    cursor: pointer;
+}
+/**footer**/
+
+footer{
+                    background-color: rgb(243, 150, 189);
+                    height: 600px;
+}
+.mainn{
+                   color: rgb(16, 4, 4);
+                   align-items: center;
+                   text-align: center;
+                    padding: 50px;
+                    font-size: 20px;
+
+}
+.link-web{
+                    font-size: 20px;
+}
+.footer-contact{
+                    display: inline-block;
+                    padding: 100px;
+                    font-size: 20px;
+                    margin-left: 200px;
+}
+.footer-number-email{
+                    display: inline-block;
+                    padding: 100px;
+                    font-size: 20px;
+                    margin-left: 180px;
+}
+.footer-redes{
+                    display: inline-block;
+                    padding: 100px;
+                    font-size: 20px;
+                    margin-left: 100px;
+
+}
+.footer-logo{
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 150px;
+                    border: 4px solid pink;
+                    box-shadow: 1px 1px 5px;
+                    display: inline-block;
+}
+.footer-name{
+                    margin-left: 15px;
+}
+hr{
+                    color: black;
+}
+
+/**contact/map**/
+
+section{
+                    align-items: center;
+                    text-align: center;
+                    background-color: antiquewhite;
+                    height: 1000px;
+                    padding: 20px;
+}
+.map-png{
+                    width: 1000px;
+                    height: 500px;
+                    margin: 100px;
+                    border: 2px solid black;
+}
+
+/**registration form**/
+
+form{
+  width: 700px; 
+  height: 600px;    
+  border: 5px solid rgb(26, 22, 23);
+  align-items: center;
+  text-align: center;
+ padding: 40px;
+ margin-left: 490px;
+ margin-top: 100px;
+ box-shadow: 3px 3px 15px;
+ font-family: arial;
+ margin-bottom: 150px;
+ cursor: pointer;
+}
+form h2{
+     padding: 10px;  
+     background-color: rgb(249, 236, 242);
+     font-size: 30px;
+}
+form h5{
+       background-color: rgb(245, 231, 237);
+       font-size: 18px;
+       padding: 5px;
+}
+.text-input{
+       width: 610px;
+       height: 25px;
+       background-color: rgb(249, 236, 242);
+
+       border: 1px solid black;
+       padding: 18px;
+       font-size: 15px;
+}
+form h4{
+       padding: 14px;
+       font-size: 18px;
+       background-color: rgb(249, 236, 242);
+}
+.multi-input{
+       width: 610px;
+       height: 120px;
+       background-color: rgb(249, 236, 242);
+       
+}
+.checkbox{
+background-color: rgb(249, 236, 242);
+}
+form p{
+       font-size: 17px;
+       background-color: rgb(249, 236, 242);
+}
+.a1{
+       padding: 10px;
+}
+.a2{
+      padding: 10px;
+}
+.form-button{
+       width: 100px;
+       height: 20px;
+       margin-top: 10px;
+       background-color: rgb(249, 236, 242);
+       border: solid 0.5px black;
+       cursor: pointer;
+}
+
+
